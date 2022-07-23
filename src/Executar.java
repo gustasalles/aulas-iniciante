@@ -7,6 +7,6 @@ public class Executar {
         //NumeroDecrescente.imprimeOrdemDecrescenteWhile(5);
         //NumeroDecrescente.imprimeOrdemDecrescenteFor(5);
         //NumeroDecrescente.imprimeOrdemDecrescenteDoWhile(5);
+        ParImpar.imprimeSomaNumerosImpares(30);
     }
 }
-l
