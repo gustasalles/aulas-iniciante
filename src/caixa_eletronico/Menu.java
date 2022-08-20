@@ -12,7 +12,6 @@ public class Menu {
         System.out.println("Digite 2 para sacar ");
         System.out.println("Digite 3 para consultar saldo");
         System.out.println("Digite 4 para editar cadastro");
-        System.out.println("Digite 5 para criar conta");
         System.out.println("Digite 0 para sair");
     }
 
@@ -47,7 +46,13 @@ public class Menu {
                         usuario.inserirSaldo(usuario.getSaldo() - valorSaque);
                         System.out.println("seu saldo atual e de:" + usuario.getSaldo());
                     }
+                    else {
+                        System.out.println("não foi possivel realizar o saque pois o valor informado e superior o valor em conta " );
+                        System.out.println("valor de saque "+ valorSaque);
+                        System.out.println("saldo disponivel em conta  " + usuario.getSaldo());
+                    }
                     break;
+
                 case 3:
                     double saldo = usuario.getSaldo();
                     System.out.println("O saldo do " + usuario.getNomeUsuario() + " é:" + saldo);
