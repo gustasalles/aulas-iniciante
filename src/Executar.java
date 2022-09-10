@@ -8,8 +8,11 @@ public class Executar {
         //NumeroDecrescente.imprimeOrdemDecrescenteFor(5);
         //NumeroDecrescente.imprimeOrdemDecrescenteDoWhile(5);
         //ParImpar.imprimeSomaNumerosImpares(30);
-        Matematica matematica = new Matematica();
-        System.out.println(matematica.fatorial(2));
-        System.out.println(matematica.fatorial2(2));
+       // Matematica matematica = new Matematica();
+       // System.out.println(matematica.fatorial(2));
+        //System.out.println(matematica.fatorial2(2));
+       // Vetor vetor = new Vetor();
+        //vetor.percorreVetor();
+        MeidaAritmetica.calcularMedia();
     }
 }

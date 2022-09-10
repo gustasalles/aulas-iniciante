@@ -19,6 +19,7 @@ public class Matematica {
             if (j != 0) {
                 resultado = j * n;
             }
+
         }
         return resultado;
 
