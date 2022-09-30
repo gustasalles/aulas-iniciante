@@ -1,3 +1,5 @@
+package matematica;
+
 public class ParImpar {
     public static boolean ehImpar(int n) {
         if (n % 2 == 0) {

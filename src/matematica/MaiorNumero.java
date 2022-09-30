@@ -1,3 +1,5 @@
+package matematica;
+
 public class MaiorNumero {
 
     public static void maiorEntreEles(int numero1, int numero2) {
