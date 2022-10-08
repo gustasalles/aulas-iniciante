@@ -1,3 +1,5 @@
+package matematica;
+
 public class Matematica {
     public double fatorial(double n) {
         double resultado = 0;

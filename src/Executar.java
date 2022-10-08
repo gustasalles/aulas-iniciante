@@ -1,3 +1,5 @@
+import matematica.MeidaAritmetica;
+
 public class Executar {
 
     public static void main(String[] args) {
@@ -13,9 +15,8 @@ public class Executar {
         //System.out.println(matematica.fatorial2(2));
        // Vetor vetor = new Vetor();
         //vetor.percorreVetor();
-       //MeidaAritmetica.calcularMedia();
-       // MaiorNota.calculoNota();
-        System.out.println(Palindromo.palavraEhPalindromo("Roma me tem amor"));
-        System.out.println(Palindromo.fraseEhPalindromo("Roma me tem amor"));
+       // MeidaAritmetica.calcularMedia();
+        System.out.println( Palindromo.fraseEhPalindromo("roma me tem amor"));
+        System.out.println(Palindromo.palavraEhPalindromo("bob"));
     }
 }

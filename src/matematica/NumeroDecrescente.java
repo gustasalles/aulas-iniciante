@@ -1,3 +1,4 @@
+package matematica;
 public class NumeroDecrescente {
 
     public static void imprimeOrdemDecrescenteWhile(int n) {
@@ -21,6 +22,14 @@ public class NumeroDecrescente {
             System.out.println("imprime em ordem decrescente:" + n);
         }
         while (n > 0);
+    }
+
+    public static void imprimeVetorOrdemDescrente (int vetor[]){
+int auxiliar =  vetor.length - 1;
+        for(int i=0; i < vetor.length;i++){
+            System.out.print(  vetor[auxiliar] + ": " );
+auxiliar = auxiliar - 1;
+        }
     }
 
 }

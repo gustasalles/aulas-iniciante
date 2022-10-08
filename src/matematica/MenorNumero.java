@@ -1,3 +1,5 @@
+package matematica;
+
 public class MenorNumero {
 
     public static void menorEntreEles(int n1, int n2) {
