@@ -13,6 +13,9 @@ public class Executar {
         //System.out.println(matematica.fatorial2(2));
        // Vetor vetor = new Vetor();
         //vetor.percorreVetor();
-        MeidaAritmetica.calcularMedia();
+       //MeidaAritmetica.calcularMedia();
+       // MaiorNota.calculoNota();
+        System.out.println(Palindromo.palavraEhPalindromo("Roma me tem amor"));
+        System.out.println(Palindromo.fraseEhPalindromo("Roma me tem amor"));
     }
 }
